@@ -16,5 +16,5 @@ barplot(x, col = brewer.pal(5, "Set3"))
 # y had to be colored with a sequential scheme
 barplot(y, col = brewer.pal(6, "YlGnBu"))
 
-# z had to be colored to show divergent values (like categories)
-barplot(z, col = brewer.pal(9, "Set2"))
+# z had to be colored to show divergent values (dark to dark)
+barplot(z, col = brewer.pal(9, "RdBu"))
