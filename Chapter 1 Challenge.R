@@ -1,4 +1,6 @@
 # Challenge was to create to create 3 lists to vizualize
+require("RColorBrewer")
+
 # x is a list of identical numbers, y is a list of sequential numbers, and z is a list of random numbers
 x <- c(5,5,5,5,5)
 ?seq
