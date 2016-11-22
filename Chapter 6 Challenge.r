@@ -7,4 +7,4 @@ describe(searchData)
 require("RColorBrewer")
 display.brewer.all()
 boxplot(searchData$nfl ~ searchData$region,
-col = brewer.pal(4, "Set2"))
+  col = brewer.pal(4, "Set2"))
